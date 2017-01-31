@@ -1,0 +1,79 @@
+/* css override */
+body {
+
+}
+
+
+nav {
+	
+	
+}
+
+nav ul {
+	/*gets rid of dots*/
+	list-style: none;
+	
+	/*shorthand for padding-top, padding-bottom, etc*/
+	padding: 10px;
+	
+}
+
+nav ul li {
+	/*chagens from list to horizontal block*/
+	display: inline-block;
+	
+	/*how to space out elements*/
+	width:32%;
+	
+	/*
+		CHECK OUT
+		display: flex; <----- amazing
+	*/
+	
+	/*how to center text*/
+	text-align: center;
+}
+
+nav ul li a {
+	/*remove underline etc*/
+	text-decoration: none; 	
+	
+	/*hover color*/
+	
+}
+
+
+header {
+	color: red;
+}
+
+main, header, footer {
+	padding: 10px;
+	
+	border: 1px solid black;
+}
+
+
+main {
+	/*minimum size for the main section*/
+	min-height: 400px;
+
+
+	padding: 6px;
+	
+	margin-bottom: 20px;
+	
+	
+}
+
+.imageHolder {
+	background: url('http://i.imgur.com/9uPsXc8.jpg') no-repeat center center;
+	min-height: 1080px;
+	
+	
+}
+
+footer {
+	
+	
+}
